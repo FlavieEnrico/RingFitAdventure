@@ -1,0 +1,173 @@
+"Smoothie","Recovery","Effect","Selling Price","Description","Ingredients","Image"
+"Spinach Smoothie","❤️","--","24","Fresh greens taste good. An invigorating and refreshing smoothie!","Spinach x2","https://static.wikia.nocookie.net/ringfitadventure/images/2/22/SpinachSmoothie.PNG"
+"Super Spinach Smoothie","❤️❤️","--","36","Contains even more spinach than the regular Spinach Smoothie!","Spinach x3",""
+"Strawberry Smoothie","--","[Battle] Red Attack power ^","30","Strawberries can be a real treat!","Strawberries x3",""
+"Sesame Smoothie","--","[Course] Doubles ingredient drops","40","A delicious smoothie!","Bananas x1
+White Sesame Seeds x2",""
+"Milk Pudding","--","[Course] Makes jogging and knee lifts easier","40","Rich in calcium and vitamin B2.","Milk x2
+Gelatin x1",""
+"Grape Smoothie","--","[Battle] Blue Attack power ^","30","This smoothie doesn't skimp on the grapes.","Grapes x3",""
+"Green Tea","--","[Battle] Green Attack power ^","30","Rich in tea catechins","Green Tea Leaves x3",""
+"Banana Smoothie","--","[Battle] Yellow Attack power ^","30","A smoothie that uses a heaping helping of ripe bananas.","Bananas x3",""
+"Pomegranate Juice","--","[Battle] Switches Fit Skill color to Red","30","A deep-red-colored drink that contains antioxidants!","Lemon x1
+Pomegranate x2",""
+"Tomato Smoothie","❤️","[Battle] Red Attack power ^","40","The color comes from a combination of beta-carotene and lycopene.","Tomato x2
+Carrot x1",""
+"Pomegranate Soda","❤️","[Battle] Switches Fit Skill color to Red","40","Carbonated water stimulates the reagents that are the secret to this drink's red color.","Pomegranate x2
+Carbonated Water x1",""
+"Apple Smoothie","--","[Battle] Red Attack power ^ + Switches Fit Skill color to Red","40","Both sweet and tasty!","Apple x2
+Strawberries x2",""
+"Apple & Onion Soup","--","[Battle] Red Attack power ^ + Defense power ^","40","The sweetness of apples and the onions makes a great combination","Apple x1
+Onion x2",""
+"Peach Smoothie","❤️❤️","[Battle] Drink after being defeated to revive","100","Uses the full-bodied flavor of peaches to bring smiles to anybody's lips.","Peach x3",""
+"Carrot Soup","--","[Battle] Doubles EXP","20","The carrots make for a brightly colored, sweet soup that's also a source of beta-carotene","Carrot x4
+Onion x3",""
+"Pumpkin Soup","--","[Battle] Doubles Money","20","Most parts of a pumpkin are edible, including the shell, the seeds, and even the flowers.","Soy Milk x3
+Pumpkin x2",""
+"Blueberry Smoothie","--","[Battle] Switches Fit Skill color to Blue","30","The berries may be small, but each one is packed with taste!","Blueberries x2
+Yogurt x1",""
+"Raisin Milk","❤️1/2","[Battle] Blue Attack power ^","40","An iron-rich drink made with plenty of thick milk and sun-dried raisins.","Milk x2
+Raisins x2",""
+"Blueberry Soda","❤️1/2","[Battle] Switches Fit Skill color to Blue","40","Blueberries are a good source of vitamin K and vitamin C.","Blueberries x2
+Carbonated Water x1",""
+"Prune Smoothie","--","[Battle] Blue Attack power ^ + Switches Fit Skill color to Blue","40","Contains not just prunes but also grapes, for that added something extra.","Grapes x2
+Prunes x2",""
+"Prune & Yogurt Smoothie","--","[Battle] Blue Attack power ^ + Defense power ^","40","Characterized by the sweetness of the prunes and the sourness of the yogurt.","Prunes x1
+Yogurt x2",""
+"Cress Smoothie","❤️❤️1/2","--","30","Cress has a peppery, tangy flavor and aroma.","Cress x2",""
+"Super Cress Smoothie","❤️❤️❤️❤️1/2","--","40","Contains even more cress than the regular Cress Smoothie!","Cress x3",""
+"Apricot Smoothie","--","[Battle] Switches Fit Skill color to Yellow","30","Apricots are rich in beta-carotene.","Bananas x1
+Apricot x2",""
+"Apple-Cider Vinegar","❤️1/2","[Battle] Yellow Attack power ^","40","If you like sour tastes, this one's for you!","Apple x2
+Vinegar x1",""
+"Apricot Soda","❤️1/2","[Battle] Switches Fit Skill color to Yellow","40","Apricots have a full-bodied aroma and tangy flavor.","Carbonated Water x1
+Apricot x2",""
+"Lemon Smoothie","--","[Battle] Yellow Attack power ^ + Switches Fit Skill color to Yellow","40","Bananas and lemons both contain potassium!","Bananas x2
+Lemon x2",""
+"Honey Lemon","--","[Battle] Yellow Attack power ^ + Defense power ^","40","A drink that blends the heady sweetness of honey and the sourness of lemons.","Lemon x1
+Honey x2",""
+"Papaya Smoothie","--","[Battle] Guaranteed rush","32","Adding orange helps to soften the peculiar aroma of the papaya.","Orange x1
+Papaya x2",""
+"Chia-Seed Smoothie","--","[Battle] Extra turn","42","Try adding chia seeds to thicken up your smoothie.","Bananas x2
+Mango x2
+Chia Seeds x1",""
+"Papaya Soda","❤️❤️","[Battle] Guaranteed rush","48","A refreshing fizzy drink.","Papaya x2
+Honey x1
+Carbonated Water x1",""
+"Chia-Seed Soda","❤️❤️","[Battle] Extra turn","48","Chia seeds have a neutral taste, so you can add them to pretty much anything.","Honey x2
+Carbonated Water x2
+Chia Seeds x2",""
+"Peach Yogurt","❤️❤️❤️❤️","[Battle] Drink after being defeated to revive","100","Gently blends sweet and sour flavors. Contains chunks of sliced peaches!","Peach x3
+Yogurt x2",""
+"Beefsteak Plant Smoothie","--","[Battle] Switches Fit Skill color to Green","30","Beefsteak plant is easy to dry, so reserve it in a sealed container.","Lemon x1
+Beefsteak Plant x2",""
+"Matcha Latte","❤️❤️","[Battle] Green Attack power ^","40","A drink that blends matcha with thick milk. The key to its flavor is not to overheat it!","Milk x2
+Matcha Powder x1",""
+"Melon Soda","❤️❤️","[Battle] Switches Fit Skill color to Green","40","A fragrant, colorful drink. The sweet ice cream and carbonated water are a perfect match.","Melon x2
+Vanilla Ice Cream x1
+Carbonated Water x1",""
+"Asparagus Smoothie","--","[Battle] Green Attack power ^ + Switches Fit Skill color to Green","40","Asparagus and green tea leaves-give it a try!","Asparagus x2
+Green Tea Leaves x2",""
+"Asparagus Onion Soup","--","[Battle] Green Attack power ^ + Defense power ^","40","The sweetness of the onion in this soup enhances the asparagus flavor.","Onion x1
+Asparagus x2",""
+"Basil Vinegar","❤️❤️❤️1/2","[Battle] Recharges skill","48","When it's time for a break, this is a good drink to make!","Vinegar x2
+Basil x1",""
+"Chard Smoothie","❤️❤️❤️1/2","[Battle] Cancels negative status effects","48","Chard can be harvested all year round, so it's a reliable ingredient for your smoothies!","Mango x1
+Chard x2",""
+"Basil Mint Smoothie","❤️❤️❤️❤️❤️1/2","[Battle] Recharges skill","48","A fragrant smoothie that combines two herbs.","Soy Milk x2
+Basil x1
+Mint x1",""
+"Mixed Chard","❤️❤️❤️❤️❤️1/2","[Battle] Cancels negative status effects","48","Very refreshing when combined with tropical fruits!","Mango x1
+Spinach x1
+Chard x2",""
+"Orange Almond Milk","--","[Battle] Guaranteed rush + Extra turn","60","Eating fresh produce can be a way to increase your intake of vitamins, minerals, and antioxidants.","Orange x2
+Sugar x2
+Almond Milk x2",""
+"Kefir Yogurt","--","[Course] Prevents monsters from appearing","40","A fermented milk drink, similar to yogurt.","Yogurt x1
+Kefir Grains x2",""
+"Cocoa","--","[Battle] Defense power ^","30","Cocoa is a drink with a chocolaty flavor!","Cocoa x2",""
+"Hojicha Latte","❤️❤️1/2","[Battle] Defense power ^","30","This low-caffeine tea is refreshing and goes down smooth.","Milk x1
+Hojicha Leaves x2",""
+"Pomegranate Almond Milk","--","[Battle] Switches Fit Skill color to Red + Guaranteed rush","60","Top with a few pomegranate seeds and sliced almonds to add crunch.","Pomegranate x2
+Sugar x1
+Almond Milk x1",""
+"Blueberry Almond Milk","--","[Battle] Switches Fit Skill color to Blue + Guaranteed rush","60","Combines mineral-rich almonds with a tangy blueberry taste.","Blueberries x2
+Sugar x1
+Almond Milk x1",""
+"Apricot Almond Milk","--","[Battle] Switches Fit Skill color to Yellow + Guaranteed rush","60","An extravagant drink that mixes the ripe sweetness of apricots with almond milk.","Apricot x2
+Sugar x1
+Almond Milk x1",""
+"Watermelon Smoothie","❤️❤️❤️❤️❤️","[Battle] Drink after being defeated to revive","100","A smoothie containing juicy watermelon. Its natural sweetness brightens any summer day.","Watermelon x3",""
+"Arugula Smoothie","❤️❤️❤️❤️1/2","--","36","A simple arugula smootie, for those who can handle a mature, bitter flavor.","Arugula x2",""
+"Super Arugula Smoothie","❤️❤️❤️❤️❤️❤️❤️","--","50","Contains even more arugula than the regular Arugula Smoothie!","Arugula x3",""
+"Ashitaba Smoothie","❤️❤️❤️❤️❤️","--","50","The yellow liquid extracted from ashitaba contains unique polyphenols.","Bananas x1
+Spinach x1
+Ashitaba x1",""
+"Cabbage Soy Potage","--","[Course] Doubles ingredient drops","60","This combines the sweetness of cabbage with the flavor of soybeans","Soy Milk x1
+Cabbage x2",""
+"Caramel Coffee","--","[Battle] Defense power ^^","50","The fragrant coffee and sweet caramel in this beverage are a relaxing combo.","Caramel x1
+Coffee Beans x2",""
+"Caramel Milk Tea","❤️❤️❤️","[Battle] Defense power ^^","50","Treat yourself to the melting milky sweetness today!","Milk x1 Caramel x2 Black Tea Leaves x1",""
+"Corn Soup","--","[Battle] Yellow Attack power ^^","50","A simple soup made with sweet corn.","Corn x3",""
+"Corn Potage","❤️❤️❤️","[Battle] Yellow Attack power ^^","60","Enough corn and the gentle sweetness of milk is enough to lift anyone's spirits.","Milk x1 Corn x2",""
+"Pineapple Ginger Juice","❤️❤️❤️","[Battle] Switches Fit Skill color to Yellow","60","Try this tropical smoothie!","Pineapple x2 Ginger x1",""
+"Cinnamon Ginger Smoothie","--","[Battle] Yellow Attack power ^^ + Defense power ^","60","Cinnamon and ginger are a spicy combination!","Ginger x2 Cinnamon x1",""
+"Grapefruit Smoothie","--","[Battle] Yellow Attack power ^^ + Recharges skill","60","A delicious harmony of sweet and sour flavors.","Grapefruit x2 Fig x1",""
+"Black Tea","--","[Battle] Doubles Money","20","Black tea is made from the leaves of a bush called Camellia sinensis.","Black Tea Leaves x5",""
+"Persimmon Smoothie","--","[Battle] Doubles EXP","20","You can add fiber and some bright color to your smoothie by using persimmons.","Persimmon x4",""
+"Yellow Mix Smoothie","❤️❤️❤️","[Battle] Yellow Attack power ^ + Switches Fit Skill color to Yellow","70","A delicious and beautiful choice for breakfast!","Pineapple x2 Ginger x1 Apricot x1",""
+"Ginger Herb Smoothie","❤️❤️❤️❤️1/2","[Battle] Yellow Attack power ^^","60","A refreshing smoothie that combines spicy ginger and fragrant lemongrass.","Ginger x2 Cinnamon x1 Lemongrass x1",""
+"Apricot Coffee","--","[Battle] Yellow Attack power ^^ + Switches Fit Skill color to Yellow","60","Blends the elegantly bitter flavor of coffee with the rich, sweet-and-sour apricot.","Coffee Beans x2 Apricot x2",""
+"Banana Shake","--","[Battle] Yellow Attack power ^^ + Extra turn","60","Combines the rich sweetness of bananas with fragrant vanilla.","Bananas x3 Vanilla Ice Cream x2",""
+"Guava Smoothie","❤️❤️❤️❤️1/2","[Battle] Drink after being defeated to revive","100","The refreshing flavor of guava is this smoothie's unique selling point.","Guava x3",""
+"Black-Currant Smoothie","--","[Battle] Blue Attack power ^^","60","A simple smoothie made with a sour fruit often used for jam and other preserves.","Black Currants x3",""
+"Prune Drink","❤️❤️❤️1/2","[Battle] Blue Attack power ^","60","A drink made from prunes cut with soy milk. Not to everyone's taste.","Soy Milk x1 Prunes x2",""
+"Radicchio Smoothie","❤️❤️❤️1/2","[Battle] Switches Fit Skill color to Blue","60","This mild smoothie combines the vividly purple radicchio with blueberries.","Blueberries x1 Radicchio x2",""
+"Cranberry Cinnamon Smoothie","--","[Battle] Blue Attack power ^ + Defense power ^","60","Combines the sourness of the berries with cinnamon's unique aroma.","Cranberries x2 Cinnamon x1",""
+"Lavender Tea","--","[Battle] Blue Attack power ^^ + Recharges skill","60","A black tea with the soothie aroma of lavender.","Black Tea Leaves x2 Lavender x2",""
+"Purple Mix Smoothie","❤️❤️❤️1/2","[Battle] Blue Attack power ^ + Switches Fit Skill color to Blue","70","A luxurious smoothie made with purple ingredients, blending sweet and bitter.","Blueberries x2 Raisins x2 Radicchio x2",""
+"Cranberry Herb Smoothie","❤️❤️❤️1/2","[Battle] Blue Attack power ^^","60","Lemongrass has a refreshing fragrance similar to lemon and pairs well with berries.","Cranberries x2 Cinnamon x1 Lemongrass x1",""
+"Blueberry Tea","--","[Battle] Blue Attack power ^^ + Switches Fit Skill color to Blue","60","The full-bodied aroma of blueberries comes out even more stongly when brewed with tea.","Blueberries ×2 Black Tea Leaves ×2",""
+"Grape Shake","❤️❤️❤️1/2","[Battle] Blue Attack power ^^ + Switches Fit Skill color to Blue","60","The combination of grapes and vanilla fragrance is appealing to kids and adults.","Grapes x3 Vanilla Ice Cream x3",""
+"Kale Smoothie","❤️❤️❤️❤️❤️1/2","--","40","Kale is a good source of vitamin C!","Kale x2",""
+"Cherry Smoothie","❤️❤️❤️❤️❤️1/2","[Battle] Drink after being defeated to revive","100","Fresh cherries are plump, with a smooth surface. Not that you'd know this after blending.","Cherries x3",""
+"Super Kale Smoothie","❤️❤️❤️❤️❤️❤️❤️❤️❤️","[Battle] Cancels negative status effects","56","Contains even more kale than the regular Kale Smoothie!","Kale x3",""
+"French Onion Soup","--","[Course] Prevents monsters from appearing","60","Onions contain vitamin C and are also a good source of dietary fiber and folic acid.","Onion x2 Cream Cheese x1",""
+"Raspberry Smoothie","--","[Battle] Red Attack power ^^","60","Let the sweet and sour raspberry flavor embrace you!","Raspberries x3",""
+"Blood Orange Juice","❤️❤️❤️❤️❤️1/2","[Battle] Red Attack power ^^","60","The sweet Tarocco blood orange is widely recommended for its juices.","Strawberries x1 Blood Orange x2",""
+"Apple & Tomato Smoothie","❤️❤️❤️1/2","[Battle] Switches Fit Skill color to Red","60","An interesting combination!","Apple x2 Tomato x1",""
+"Cinnamon & Raspberry Juice","--","[Battle] Red Attack power ^^ + Defense power ^","60","The flavor of cinnamon shines through the sweetness of the berries.","Raspberries x2 Cinnamon x1",""
+"Fig Smoothie","--","[Battle] Red Attack power ^^ + Recharges skill","60","Figs are a good source of several essential minerals, including magnesium.","Fig x2",""
+"Plum Juice","--","[Battle] Red Attack power ^ + Switches Fit Skill color to Red","60","Organic acid is the secret to the sweet and sour flavor of this drink.","Vinegar x2 Plum x1 Sugar x1",""
+"Red Mix Smoothie","❤️❤️❤️❤️❤️1/2","[Battle] Red Attack power ^ + Switches Fit Skill color to Red","70","Filled with red ingredients. Every sip is a polyphenol party inside your body!","Apple x2 Tomato x2 Cranberries x2",""
+"Tomato Herb Smoothie","❤️❤️❤️1/2","[Battle] Red Attack power ^","60","A smoothie rich in tomato flavor. That lemongrass scent is the finishing touch.","Tomato x2 Cinnamon x1 Lemongrass x1",""
+"Pomegranate Tea","--","[Battle] Red Attack power ^^ + Switches Fit Skill color to Red","60","Pomegranates are a source of fiber, B vitamins, vitamin C, and potassium.","Pomegranate x2 Black Tea Leaves x2",""
+"Strawberry Shake","❤️❤️❤️1/2","[Battle] Red Attack power ^^ + Switches Fit Skill color to Red","60","Everybody has a favorite flavor of shake. Maybe strawberry is yours?","Strawberries x3 Vanilla Ice Cream x3",""
+"Lime Smoothie","--","[Battle] Green Attack power ^^","60","Lime is rich in both vitamin C and citric acid.","Lime x3",""
+"Lettuce Milk Smoothie","❤️❤️❤️❤️❤️","[Battle] Green Attack power ^^","60","Has lettuce's signature mild flavor.","Milk x2 Lettuce x1",""
+"Avocado Smoothie","❤️❤️❤️❤️","[Battle] Switches Fit Skill color to Green","60","Avocado makes a rich, creamy smoothie.","Avocado x2 Celery x1",""
+"Lime Cinnamon Smoothie","--","[Battle] Green Attack power ^^ + Defense power ^","60","The harmony of lime and cinnamon fragrances makes for a vivid, unique drink.","Lime x2 Cinnamon x1",""
+"Kiwi Smoothie","--","[Battle] Green Attack power ^^ + Recharges skill","60","This smoothie combines the sourness of kiwi with that refreshing apple favor.","Apple x1 Kiwi x2",""
+"Green Mix Smoothie","❤️❤️❤️❤️","[Battle] Green Attack power ^ + Switches Fit Skill color to Green","70","Ingredients with fiber and lots of different flavors!","Avocado x2 Celery x2 Arugula x2",""
+"Avocado Herb Smoothie","❤️❤️❤️❤️❤️❤️","[Battle] Red Attack power ^^","60","A refreshing drink made from avocado with undercurrents of cinnamon and lemongrass.","Avocado x2 Cinnamon x2 Lemongrass x1",""
+"Pear Juice","❤️❤️❤️❤️❤️1/2","[Battle] Red Attack power ^^ + Switches Fit Skill color to Red","60","Pears make good juice!","Pear x3",""
+"Peach Shake","❤️❤️❤️❤️❤️❤️1/2","[Battle] Drink after being defeated to revive","100","The fragrance of vanilla with the peach's sweetness satisfies anyone's sweet tooth.","3x Peach 1x Vanilla Ice Cream",""
+"Super Ashitaba Smoothie","❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️","[Battle] Recharges skill","60","More nutritious than the regular Ashitaba Smoothie.","Bananas x2 Spinach x1 Ashitaba x1",""
+"Red Moon Smoothie","❤️❤️❤️❤️1/2","[Battle] Red Attack power ^^ + Guaranteed rush","80","Much more common than the full red harvest moons seen occasionally at night.","Fig x2 Tomato x2 Parsley x2",""
+"Purple Sunset Smoothie","❤️❤️❤️❤️1/2","[Battle] Blue Attack power ^^ + Guaranteed rush","80","A trinity of sourness, bitterness and a vivid aroma in one luxurious smoothie!","Blueberries x2 Radicchio x2 Lavender x2",""
+"Matcha Shake","--","[Battle] Green Attack power ^^ + Guaranteed rush","80","The fragrance of the vanilla enhances the deliciousness of the matcha.","Vanilla Ice Cream x2 Matcha Powder x2",""
+"Yellow Sky Smoothie","❤️❤️❤️❤️1/2","[Battle] Yellow Attack power ^^ + Guaranteed rush","80","Packed with ingredients rich in vitamin C. Just looking at it makes the mouth water.","Lemon x2 Pineapple x2 Grapefruit x2",""
+"Wheatgrass Smoothie","❤️❤️❤️❤️❤️❤️❤️❤️","--","46","This smoothie spreads the unique flavor of wheatgrass all across your tongue!","2x Wheatgrass",""
+"Super Wheatgrass Smoothie","❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️1/2","--","60","Contains even more Wheatgrass than the regular Wheatgrass Smoothie!","3x Wheatgrass",""
+"Green Basil Smoothie","❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️1/2","[Battle] Recharges skill + Cancels negative status effects","80","Lots of beta-carotene in this smoothie!","Chard x2 Basil x2",""
+"Tropical Smoothie","--","[Battle] Attack power ^^","80","A very luxurious smoothie. One sip and you'll feel like you're at a tropical resort","Pineapple x2 Mandarin Orange x2 Papaya x2",""
+"Royal Green Smoothie","❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️","[Battle] Recharges skill + Cancels negative status effects","80","A refreshing blend of three vegetables!","Chard x2 Basil x2 Ashitaba x2",""
+"Deep Red Smoothie","❤️❤️❤️❤️❤️❤️❤️","[Battle] Red Attack power ^^ + Switches Fit Skill color to Red","80","A blend of deep-red berries underlines with a bittersweet flavor of fennel","Strawberries x2 Raspberries x2 Fennel x2",""
+"Deep Purple Smoothie","❤️❤️❤️❤️❤️❤️❤️","[Battle] Blue Attack power ^^ + Switches Fit Skill color to Blue","80","A beautiful, rich, deep blue color!","Grapes x2 Black Currants x2 Vine Spinach x2",""
+"Deep Lime Green Smoothie","❤️❤️❤️❤️❤️❤️❤️","[Battle] Green Attack power ^^ + Switches Fit Skill color to Green","80","A lime green smoothie that celebrates the bounty and energy of nature","Green Tea Leaves x2 Lime x2 Tatsoi x2",""
+"Deep Yellow Smoothie","❤️❤️❤️❤️❤️❤️❤️","[Battle] Yellow Attack power ^^ + Switches Fit Skill color to Yellow","80","A smoothie with the shining, yellow color of the sun!","Bananas x2 Honey x2 Apricot x2",""
+"Pink-Grapefruit Smoothie","❤️❤️❤️❤️❤️❤️❤️❤️","[Battle] Drink after being defeated to revive","100","Pink grapefruit is also known as Ruby Red grapefruit or redblush grapefruit.","Pink Grapefruit x3",""
+"Strength Drink","--","Attack power +1","20","An unusual drink with an unusual flavor. Guaranteed to increase attack power!","--",""
+"Defense Drink","--","Defense +1","20","An unusual drink with an unusual flavor. Guaranteed to increase defense power!","--",""
+"Skill Drink","--","Skill points +1","20","An unusual drink with an unusual flavor. Guaranteed to increase your skill points!","--",""
+"Dragon Drink","--","Level +1","20","An unusual drink with an unusual flavor. Guaranteed to level you up!","Dragon Fruit x5",""
