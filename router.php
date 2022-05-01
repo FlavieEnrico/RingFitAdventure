@@ -4,10 +4,11 @@
 	$page = explode('/',$_SERVER['REQUEST_URI']);
 	// to handle the query as an array, each element containing a part of the global URL
 	$method = $_SERVER['REQUEST_METHOD'];
+	$length=count($page)-1;
 
 	//This part is the routing process : depending the different url elements, we dispatch 
 
-	switch($page[3]) {
+	switch($page[$length]) {
 		case 'mondes' : 
 			switch($method) {
 				case 'GET' : 

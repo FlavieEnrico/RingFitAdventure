@@ -8,7 +8,7 @@ Grâce à ce wiki, vous pourrez consulter les informations des différents nivea
 
 ## Procédure d'installation pour les collaborateurs : 
 
-# Voir le site en ligne : 
+## Voir le site en ligne : 
 
 Hébergement sur le serveur de l'Université Gustave Eiffel [disponible ici](https://etudiant.u-pem.fr/~flavie.enrico/RingFitAdventure/).
 
