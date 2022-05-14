@@ -6,4 +6,5 @@ function connection() {
         die('Connection failed');
     }
     return $cnx;
+    
 }
