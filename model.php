@@ -2,8 +2,14 @@
 
     require_once('connexion.php');
 	
-    function getAll() {
+    function getAll($table) {
 		$cnx = connection();
-		$result = $cnx->query('select * from rfa_monde');
-		return $result->fetchall();
+		$result = $cnx->query('select nom from '.$table);
+		return $result->fetchall(PDO::FETCH_CLASS);
 	}
+
+	/*function getOne() {
+		$cnx = connection();
+		$result = $cnx->query('select * from rfa_mondes where id=\''$id'\'');
+		return $result->fetchall();
+	}*/

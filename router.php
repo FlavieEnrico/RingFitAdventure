@@ -14,12 +14,38 @@
 				case 'GET' : 
 					//calling correct function in the controller
 					echo getMondesAsTable();
+					/* $requete=getMondesaAsTables;
+					foreach
+						echo requete[].nom;
+					*/
 					break;
 				default:
 					http_response_code('404');
 					echo 'OOPS';
 			}
 			break;
+		case 'smoothies' : 
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					echo getSmoothiesAsTable();
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+			case 'personnages' : 
+				switch($method) {
+					case 'GET' : 
+						//calling correct function in the controller
+						echo getPersonnagesAsTable();
+						break;
+					default:
+						http_response_code('404');
+						echo 'OOPS';
+				}
+				break;
 		default : 
 			http_response_code('500');
 			echo 'unknown endpoint';
