@@ -8,8 +8,8 @@
 		return $result->fetchall(PDO::FETCH_CLASS);
 	}
 
-	/*function getOne() {
+	function getOne($id) {
 		$cnx = connection();
-		$result = $cnx->query('select * from rfa_mondes where id=\''$id'\'');
-		return $result->fetchall();
-	}*/
+		$result = $cnx->query('select * from rfa_mondes where id=\'$id\'');
+		return $result->fetchall(PDO::FETCH_CLASS);
+	}

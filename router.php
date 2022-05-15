@@ -24,6 +24,39 @@
 					echo 'OOPS';
 			}
 			break;
+		case 'niveaux' : 
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					echo getNiveauxAsTable();
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'personnages' : 
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					echo getPersonnagesAsTable();
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'ennemis' : 
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					echo getEnnemisAsTable();
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
 		case 'smoothies' : 
 			switch($method) {
 				case 'GET' : 
@@ -35,17 +68,39 @@
 					echo 'OOPS';
 			}
 			break;
-			case 'personnages' : 
-				switch($method) {
-					case 'GET' : 
-						//calling correct function in the controller
-						echo getPersonnagesAsTable();
-						break;
-					default:
-						http_response_code('404');
-						echo 'OOPS';
-				}
-				break;
+		case 'ingredients' : 
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					echo getIngredientsAsTable();
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'exercices' : 
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					echo getExercicesAsTable();
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'muscles' : 
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					echo getMusclesAsTable();
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
 		default : 
 			http_response_code('500');
 			echo 'unknown endpoint';
