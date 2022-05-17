@@ -8,16 +8,38 @@
 
 	//This part is the routing process : depending the different url elements, we dispatch 
 
-	switch($page[$length]) {
+	//Afficher chaque table
+	switch($page[4]) {
 		case 'mondes' : 
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getMondesAsTable();
-					/* $requete=getMondesaAsTables;
-					foreach
-						echo requete[].nom;
-					*/
+					$requete=getMondesAsTable();
+					$requete=json_decode($requete);
+					echo "<ol>";
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo "<li><a href=\"monde/$id\">$requete[$i]</a></li>";
+					}
+					echo "</ol>";
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'monde' :
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					$requete=getMondeWithNiveaux($page[5]);
+					//$requete = getMonde($page[5]);
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo $requete[$i]."<br>";
+					}
+					//return getNivFromMonde($page[5]);
 					break;
 				default:
 					http_response_code('404');
@@ -28,7 +50,30 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getNiveauxAsTable();
+					$requete=getNiveauxAsTable();
+					$requete=json_decode($requete);
+					echo "<ol>";
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo "<li><a href=\"niveau/$id\">$requete[$i]</a></li>";
+					}
+					echo "</ol>";
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'niveau' :
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					$requete=getNiveau($page[5]);
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo $requete[$i]."<br>";
+					}
 					break;
 				default:
 					http_response_code('404');
@@ -39,7 +84,30 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getPersonnagesAsTable();
+					$requete=getPersonnagesAsTable();
+					$requete=json_decode($requete);
+					echo "<ol>";
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo "<li><a href=\"personnage/$id\">$requete[$i]</a></li>";
+					}
+					echo "</ol>";
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'personnage' :
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					$requete=getPersonnage($page[5]);
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo $requete[$i]."<br>";
+					}
 					break;
 				default:
 					http_response_code('404');
@@ -50,7 +118,30 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getEnnemisAsTable();
+					$requete=getEnnemisAsTable();
+					$requete=json_decode($requete);
+					echo "<ol>";
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo "<li><a href=\"ennemi/$id\">$requete[$i]</a></li>";
+					}
+					echo "</ol>";
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'ennemi' :
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					$requete=getEnnemi($page[5]);
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo $requete[$i]."<br>";
+					}
 					break;
 				default:
 					http_response_code('404');
@@ -61,18 +152,30 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getSmoothiesAsTable();
+					$requete=getSmoothiesAsTable();
+					$requete=json_decode($requete);
+					echo "<ol>";
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo "<li><a href=\"smoothie/$id\">$requete[$i]</a></li>";
+					}
+					echo "</ol>";
 					break;
 				default:
 					http_response_code('404');
 					echo 'OOPS';
 			}
 			break;
-		case 'ingredients' : 
+		case 'smoothie' :
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getIngredientsAsTable();
+					$requete=getSmoothie($page[5]);
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo $requete[$i]."<br>";
+					}
 					break;
 				default:
 					http_response_code('404');
@@ -83,7 +186,30 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getExercicesAsTable();
+					$requete=getExercicesAsTable();
+					$requete=json_decode($requete);
+					echo "<ol>";
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo "<li><a href=\"exercice/$id\">$requete[$i]</a></li>";
+					}
+					echo "</ol>";
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'exercice' :
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					$requete=getExercice($page[5]);
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo $requete[$i]."<br>";
+					}
 					break;
 				default:
 					http_response_code('404');
@@ -94,7 +220,29 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					echo getMusclesAsTable();
+					$requete=getMusclesAsTable();
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo "<li><a href=\"muscle/$id\">$requete[$i]</a></li>";
+					}
+					echo "</ol>";
+					break;
+				default:
+					http_response_code('404');
+					echo 'OOPS';
+			}
+			break;
+		case 'muscle' :
+			switch($method) {
+				case 'GET' : 
+					//calling correct function in the controller
+					$requete=getMuscle($page[5]);
+					$requete=json_decode($requete);
+					for ($i=0;$i<count($requete);$i++) {
+						$id=$i+1;
+						echo $requete[$i]."<br>";
+					}
 					break;
 				default:
 					http_response_code('404');
