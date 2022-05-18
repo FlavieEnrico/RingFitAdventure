@@ -1,0 +1,24 @@
+/* Variables css pour toute la couleurs du site */
+:root {
+    --font-color: #000000;
+    --primary-color: #E60012; /* couleur primaire du site (utilisé pour les liens en général) */
+    --background-white: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("../images/main-pattern.jpg") center center;
+}
+
+a {
+    color: var(--font-color);
+    text-decoration: underline;
+    transition: color 300ms ease-in-out; /* Permettre de faire que le changement de couleur au survol se fasse de facon plus "lente" */
+}
+
+/* Au survol */
+a:hover {
+    color: var(--primary-color);
+}
+
+@import 'components/section-text.css';
