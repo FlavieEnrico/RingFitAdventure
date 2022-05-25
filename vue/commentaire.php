@@ -8,37 +8,55 @@
 </head>
 <body>
     <?php 
-
+    //recup l'etat de la connexion
+    /*
+    function connection() {
+        $cnx = new PDO('mysql:host=localhost;dbname=flavie_enrico_db', 'root', '');
+        if(!$cnx) {
+            die('Connection failed');
+        }
+        return $cnx;
+        
+    }
+    $cnx = connection();
+*/
     // ETAPE A FAIRE RECUP L'ID à partir de la dernière partie de l'URL ou on se trouve
+
+    
+
+    
 
 
     //on met l'ID dans une variable
-        if(isset($_GET['id']) AND !empty($_GET['id'])){
-            $getid=htmlspecialchars($_GET['id']);
-        }
-        
+   // if(isset($_GET['id']) AND !empty($_GET['id'])){
+        $getid=htmlspecialchars($_GET['id']);
 
-    // on vérifie pour être sûr que tous les champs ont été complétés. Ca permet de protéger nos champs de personnes mal intentionnées.
-    //htmlspecialchars -> protection supplémentaire
+        // On recupère les commentaires
+        $commentaires = $bdd->prepare('SELECT * FROM rfa_exercices WHERE id_article = ?');
+        $commentaires->execute(array($getid));
+
+        // on vérifie pour être sûr que tous les champs ont été complétés. Ca permet de protéger nos champs de personnes mal intentionnées.
+        //htmlspecialchars -> protection supplémentaire
         if(isset($_POST['submit_commentaire'])){
             if(isset($_POST['pseudo'],$_POST['commentaire']) AND !empty($_POST['pseudo']) AND !empty($_POST['commentaire'])){
                 $pseudo=htmlspecialchars($_POST['pseudo']);
                 $commentaire=htmlspecialchars($_POST['commentaire']);
 
                 if(strlen($pseudo) < 30){
-                    // NECESSITE DE SE CONNECTER A conncexion.php
+                    // NECESSITE DE SE CONNECTER A connexion.php
                     $ins = $cnx->prepare('INSERT INTO rfa_commentaires (pseudo, commentaire, id_article)VALUES (?,?,?)');
-
+                    $ins->execute(array($pseudo,$commentaire,$getid));
+                    $c_msg = "Le commentaire a été posté.";
                 }else{
-                    $c_erreur = "Le pseudo doit faire moins de 25 caractères";
+                    $c_msg = "Erreur: Le pseudo doit faire moins de 30 caractères";
                 }
 
             }
             else{
-                $c_erreur = "Tous les champs doivent être complétés";
+                $c_msg = "Erreur: Tous les champs doivent être complétés";
             }
         }
-    
+   // }
     ?>
     <aside>
         <h2> Espace Commentaire </h2>
@@ -57,9 +75,11 @@
             </div>
         </form>
     </aside>
-  
-    <?php 
-    if(isset($c_erreur)){ echo "Erreur: ".$c_erreur; }
-    ?>
+    
+    <div class="messagePHP">
+        <?php 
+        if(isset($c_msg)){ echo $c_msg; };
+        ?>
+    </div>
 </body>
 </html>
