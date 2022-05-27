@@ -29,7 +29,7 @@
             "name" => "Exercices"
         ],
         [
-            "href" => "./router.php/smoothies",
+            "href" => "./router.php/muscles",
             "name" => "Muscles"
         ],
     );
