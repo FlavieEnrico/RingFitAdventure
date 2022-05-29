@@ -1,5 +1,5 @@
 <?php 
-require_once('controller.php');
+require_once('controller/controller.php');
 
 //calling correct function in the controller
 $requete=getEnnemi($page[4]);

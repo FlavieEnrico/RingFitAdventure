@@ -20,10 +20,6 @@
             "href" => "exercices",
             "name" => "Exercices"
         ],
-        [
-            "href" => "muscles",
-            "name" => "Muscles"
-        ],
     );
 ?>
 

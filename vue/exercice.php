@@ -1,6 +1,6 @@
 <?php
 
-require_once('controller.php');
+require_once('controller/controller.php');
 
 //calling correct function in the controller
 $requete=getExercice($page[4]);
