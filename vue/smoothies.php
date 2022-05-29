@@ -15,7 +15,7 @@ require_once('./controller/controller.php');
             if ($current<count($requete)) {
             echo "
                 <div class=\"card col-md-4\">
-                    <img class=\"card-img-top\" src=\"https://static.wikia.nocookie.net/ringfitadventure/images/9/96/Screenshot_2020-08-18_at_10.48.01_AM.png\" alt=\"".$requete[$current]."\"><div class=\"card-body\"><h5 class=\"card-title\"><a href=\"monde/$current_id\">".$requete[$current]."</a></h5>
+                    <img class=\"card-img-top\" src=\"https://static.wikia.nocookie.net/ringfitadventure/images/9/96/Screenshot_2020-08-18_at_10.48.01_AM.png\" alt=\"".$requete[$current]."\"><div class=\"card-body\"><h5 class=\"card-title\"><a href=\"smoothie/$current_id\">".$requete[$current]."</a></h5>
                     </div>
                 </div>";
             }

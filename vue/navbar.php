@@ -2,15 +2,15 @@
     $links = array(
         [
             "href" => "mondes",
-            "name" => "Mondes"
+            "name" => "Worlds"
         ],
         [
             "href" => "personnages",
-            "name" => "Personnages"
+            "name" => "Characters"
         ],
         [
             "href" => "ennemis",
-            "name" => "Ennemis"
+            "name" => "Enemies"
         ],
         [
             "href" => "smoothies",
@@ -18,13 +18,14 @@
         ],
         [
             "href" => "exercices",
-            "name" => "Exercices"
+            "name" => "Exercises"
         ],
     );
 ?>
 
 <nav class="navbar bg-white">
     <div class="container">
+        <a href=""><img src="../assets/images/logo.png" height="60px"></a>
         <?php
             $page = explode('/',$_SERVER['REQUEST_URI']);
             foreach ($links as $link) {

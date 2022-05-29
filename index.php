@@ -23,7 +23,7 @@
 
     <main>
         <section class="container">
-            <h1 class="text-center">Bienvenu sur le wiki de RingFitAdventure</h1>
+            <h1 class="text-center">Welcome to the Ring Fit Adventure Wiki</h1>
         </section>
 
 

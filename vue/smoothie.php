@@ -1,11 +1,24 @@
 <?php 
+include_once("./vue/head.php");
+include_once("./vue/navbar.php"); 
 
-require_once('controller/controller.php');
+require_once('./controller/controller.php');
 
 //calling correct function in the controller
 $requete=getSmoothie($page[4]);
 $requete=json_decode($requete);
-for ($i=0;$i<count($requete);$i++) {
-    $id=$i+1;
-    echo $requete[$i]."<br>";
-}
+
+echo "<div style=\"padding:50px; margin:50px; background-color:white; border-radius:50px;\">
+<h1>$requete[1]</h1>
+<ul>
+<li>Recovery : $requete[2]</li>
+<li>Effect : $requete[3]</li>
+<li>Price : $requete[4]</li>
+<li>Selling price : $requete[5]</li>
+<li>Recipe : $requete[6]</li>
+</ul>
+<p>$requete[7]</p>
+<img src=\"$requete[8]\">
+</div>";
+
+include_once("./vue/footer.php"); ?>
