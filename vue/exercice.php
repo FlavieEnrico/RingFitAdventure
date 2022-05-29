@@ -1,13 +1,11 @@
-<?php 
+<?php
 
 require_once('controller.php');
 
 //calling correct function in the controller
-$requete=getSmoothiesAsTable();
+$requete=getExercice($page[4]);
 $requete=json_decode($requete);
-echo "<ol>";
 for ($i=0;$i<count($requete);$i++) {
     $id=$i+1;
-    echo "<li><a href=\"smoothie/$id\">$requete[$i]</a></li>";
+    echo $requete[$i]."<br>";
 }
-echo "</ol>";
