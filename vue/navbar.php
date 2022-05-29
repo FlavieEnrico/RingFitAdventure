@@ -1,35 +1,27 @@
 <?php
     $links = array(
         [
-            "href" => "./router.php/mondes",
+            "href" => "mondes",
             "name" => "Mondes"
         ],
         [
-            "href" => "./router.php/niveaux",
-            "name" => "Niveaux"
-        ],
-        [
-            "href" => "./router.php/personnages",
+            "href" => "personnages",
             "name" => "Personnages"
         ],
         [
-            "href" => "./router.php/ennemis",
+            "href" => "ennemis",
             "name" => "Ennemis"
         ],
         [
-            "href" => "./router.php/smoothies",
+            "href" => "smoothies",
             "name" => "Smoothies"
         ],
         [
-            "href" => "./router.php/ingredients",
-            "name" => "Ingrédients"
-        ],
-        [
-            "href" => "./router.php/exercices",
+            "href" => "exercices",
             "name" => "Exercices"
         ],
         [
-            "href" => "./router.php/smoothies",
+            "href" => "muscles",
             "name" => "Muscles"
         ],
     );
@@ -38,8 +30,14 @@
 <nav class="navbar bg-white">
     <div class="container">
         <?php
+            $page = explode('/',$_SERVER['REQUEST_URI']);
             foreach ($links as $link) {
-                echo '<a class="navbar-brand" href="'.$link["href"].'">'.$link["name"].'</a>';
+                if ($page[2]=="router.php") {
+                    echo '<a class="navbar-brand" href="./'.$link["href"].'">'.$link["name"].'</a>';
+                }
+                else {
+                    echo '<a class="navbar-brand" href="./router.php/'.$link["href"].'">'.$link["name"].'</a>';
+                }
             }
         ?>
     </div>

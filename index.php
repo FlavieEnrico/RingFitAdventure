@@ -33,17 +33,7 @@
                     <div class="col-12 col-md-12 col-lg-6 col-xl-5 section-text">
                         <h1>RingFitAdventure</h1>
                         <p class="lead mb-5">Un jeu créatif et immersif qui à la pointe de la technologie vous fera découvrir des mondes différents, des personnages et encore plein de surprises ! Et cela tout en restant fit !!
-                        <html lang="en">
-                        <head>
-                            <meta charset="UTF-8">
-                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                            <title>Document</title>
-                        </head>
-                        <body>
-                            
-                        </body>
-                        </html></p>
+                        </p>
                     </div>
                     <div class="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
                         <img alt="image" class="img-fluid" src="https://ringfitadventure.nintendo.com/assets/img/home/adventure/char03-pump.gif">
