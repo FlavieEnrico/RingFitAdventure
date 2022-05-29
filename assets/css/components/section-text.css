@@ -1,0 +1,6 @@
+.section-text {
+    background-color: var(--background-white);
+    padding: 1em;
+    border-radius: 1rem;
+    box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+}

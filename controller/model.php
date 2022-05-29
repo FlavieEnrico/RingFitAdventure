@@ -5,7 +5,7 @@
     function getAll($table) {
 		$cnx = connection();
 		$result = $cnx->query('select nom from '.$table);
-		return $result->fetchall(PDO::FETCH_CLASS);
+		return $result->fetchAll();
 	}
 
 	/*function getOne() {

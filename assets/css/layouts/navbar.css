@@ -1,0 +1,13 @@
+.navbar .navbar-brand {
+    color: var(--font-color);
+}
+.navbar .navbar-brand:hover {
+    color: var(--primary-color);
+}
+
+.navbar {
+    padding-top: .75em;
+    padding-bottom: .75em;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+    margin-bottom: .75em;
+}
