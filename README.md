@@ -9,7 +9,7 @@ Grâce à ce wiki, vous pourrez consulter les informations des différents nivea
 ## Procédure d'installation pour les collaborateurs :
 
 En localhost : installer le dump de la base de données dans PhpMyAdmin, puis modifier le fichier connexion.php avec vos identifiants. 
-Le router pourra avoir besoin de modifications selon votre chemin local ; modifier la case de $page dans laquelle se trouve l'info cruciale de l'url (mondes, ennemis, etc...)
+Le router pourra avoir besoin de modifications selon votre chemin local ; modifier la case de $page dans laquelle se trouve l'info cruciale de l'url (mondes, ennemis, etc...).
 
 ## Voir le site en ligne : 
 
