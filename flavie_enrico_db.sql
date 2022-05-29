@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 27 mai 2022 à 16:57
+-- Généré le : dim. 29 mai 2022 à 23:17
 -- Version du serveur : 10.4.22-MariaDB
 -- Version de PHP : 8.1.2
 
@@ -42,6 +42,28 @@ INSERT INTO `rfa_categories` (`id`, `nom`) VALUES
 (3, 'Legs'),
 (4, 'Yoga'),
 (5, 'Full body');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `rfa_commentaires`
+--
+
+CREATE TABLE `rfa_commentaires` (
+  `id` int(11) NOT NULL,
+  `pseudo` varchar(30) NOT NULL,
+  `commentaire` text NOT NULL,
+  `id_article` int(11) NOT NULL,
+  `date_time_post` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `rfa_commentaires`
+--
+
+INSERT INTO `rfa_commentaires` (`id`, `pseudo`, `commentaire`, `id_article`, `date_time_post`) VALUES
+(1, 'Flavie', 'coucou', 5, '2022-05-29'),
+(2, 'flavie', 'test 2', 5, '2022-05-29');
 
 -- --------------------------------------------------------
 
@@ -745,6 +767,13 @@ ALTER TABLE `rfa_categories`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Index pour la table `rfa_commentaires`
+--
+ALTER TABLE `rfa_commentaires`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_article` (`id_article`);
+
+--
 -- Index pour la table `rfa_ennemis`
 --
 ALTER TABLE `rfa_ennemis`
@@ -820,6 +849,12 @@ ALTER TABLE `rfa_categories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
+-- AUTO_INCREMENT pour la table `rfa_commentaires`
+--
+ALTER TABLE `rfa_commentaires`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT pour la table `rfa_ennemis`
 --
 ALTER TABLE `rfa_ennemis`
@@ -864,6 +899,12 @@ ALTER TABLE `rfa_smoothies`
 --
 -- Contraintes pour les tables déchargées
 --
+
+--
+-- Contraintes pour la table `rfa_commentaires`
+--
+ALTER TABLE `rfa_commentaires`
+  ADD CONSTRAINT `rfa_commentaires_ibfk_1` FOREIGN KEY (`id_article`) REFERENCES `rfa_exercices` (`id`);
 
 --
 -- Contraintes pour la table `rfa_exercices`
