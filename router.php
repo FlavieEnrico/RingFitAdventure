@@ -9,7 +9,7 @@
 	//This part is the routing process : depending the different url elements, we dispatch 
 
 	//Afficher chaque table
-	switch($page[4]) {
+	switch($page[3]) {
 		case 'mondes' : 
 			switch($method) {
 				case 'GET' : 
@@ -32,7 +32,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getMondeWithNiveaux($page[5]);
+					$requete=getMondeWithNiveaux($page[4]);
 					//$requete = getMonde($page[5]);
 					$requete=json_decode($requete);
 					for ($i=0;$i<count($requete);$i++) {
@@ -68,7 +68,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getNiveau($page[5]);
+					$requete=getNiveau($page[4]);
 					$requete=json_decode($requete);
 					for ($i=0;$i<count($requete);$i++) {
 						$id=$i+1;
@@ -102,7 +102,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getPersonnage($page[5]);
+					$requete=getPersonnage($page[4]);
 					$requete=json_decode($requete);
 					for ($i=0;$i<count($requete);$i++) {
 						$id=$i+1;
@@ -136,7 +136,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getEnnemi($page[5]);
+					$requete=getEnnemi($page[4]);
 					$requete=json_decode($requete);
 					for ($i=0;$i<count($requete);$i++) {
 						$id=$i+1;
@@ -170,7 +170,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getSmoothie($page[5]);
+					$requete=getSmoothie($page[4]);
 					$requete=json_decode($requete);
 					for ($i=0;$i<count($requete);$i++) {
 						$id=$i+1;
@@ -204,7 +204,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getExercice($page[5]);
+					$requete=getExercice($page[4]);
 					$requete=json_decode($requete);
 					for ($i=0;$i<count($requete);$i++) {
 						$id=$i+1;
@@ -237,7 +237,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getMuscle($page[5]);
+					$requete=getMuscle($page[4]);
 					$requete=json_decode($requete);
 					for ($i=0;$i<count($requete);$i++) {
 						$id=$i+1;
