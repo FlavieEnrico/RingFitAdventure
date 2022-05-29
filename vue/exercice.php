@@ -20,4 +20,8 @@ echo "<div style=\"padding:50px; margin:50px; background-color:white; border-rad
 <img src=\"$requete[7]\">
 </div>";
 
+echo "<div style=\"padding:50px; margin:50px; background-color:white; border-radius:50px;\">";
+include_once("commentairefront.php");
+echo "</div>";
+
 include_once("./vue/footer.php"); ?>

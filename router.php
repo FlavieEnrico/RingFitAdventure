@@ -106,6 +106,9 @@
 				case 'GET' : 
 					include 'vue/exercice.php';
 					break;
+				case 'POST' : 
+					include 'vue/exercice.php';
+					break;
 				default:
 					http_response_code('404');
 					echo 'OOPS';

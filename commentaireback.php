@@ -1,6 +1,6 @@
 
 <?php 
-require_once('../connexion.php');
+//require_once('../connexion.php');
 //recup l'etat de la connexion
 
 $cnx = connection();
@@ -25,13 +25,15 @@ $getid=$page[$length];
     // on vérifie pour être sûr que tous les champs ont été complétés. Ca permet de protéger nos champs de personnes mal intentionnées.
     //htmlspecialchars -> protection supplémentaire
     if(isset($_POST['submit_commentaire'])){
-        if(isset($_POST['pseudo'],$_POST['commentaire']) AND !empty($_POST['pseudo']) AND !empty($_POST['commentaire'])){
+        $user_pseudo=$_POST['pseudo'];
+        $user_comment=$_POST['commentaire'];
+        if(isset($_POST['pseudo'],$_POST['commentaire']) AND !empty($user_pseudo) AND !empty($user_comment)){
             $pseudo=htmlspecialchars($_POST['pseudo']);
             $commentaire=htmlspecialchars($_POST['commentaire']);
 
             if(strlen($pseudo) < 30){
                 // NECESSITE DE SE CONNECTER A connexion.php
-                $ins = $cnx->prepare('INSERT INTO rfa_commentaires (pseudo, commentaire, id_article, date_time_post)VALUES (?,?,?,?');
+                $ins = $cnx->prepare('INSERT INTO rfa_commentaires (pseudo, commentaire, id_article, date_time_post)VALUES (?,?,?,?)');
                 $date= date("Y-m-d H:i:s");
                 $ins->execute(array($pseudo,$commentaire,$getid, $date));
                 $c_msg = "Le commentaire a été posté.";

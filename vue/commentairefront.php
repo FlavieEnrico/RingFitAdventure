@@ -1,4 +1,5 @@
-<?php require_once('../commentaireback.php'); ?>
+<?php 
+require_once('./commentaireback.php'); ?>
     <aside>
         <h2> Espace Commentaire </h2>
         <!--<form action="/router.php" method="POST">-->
@@ -32,4 +33,3 @@
         }
         ?>
     </section>
-
