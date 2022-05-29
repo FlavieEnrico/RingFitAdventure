@@ -14,14 +14,7 @@
 			switch($method) {
 				case 'GET' : 
 					//calling correct function in the controller
-					$requete=getMondesAsTable();
-					$requete=json_decode($requete);
-					echo "<ol>";
-					for ($i=0;$i<count($requete);$i++) {
-						$id=$i+1;
-						echo "<li><a href=\"monde/$id\">$requete[$i]</a></li>";
-					}
-					echo "</ol>";
+					include 'vue/mondes.php';
 					break;
 				default:
 					http_response_code('404');
@@ -31,15 +24,7 @@
 		case 'monde' :
 			switch($method) {
 				case 'GET' : 
-					//calling correct function in the controller
-					$requete=getMondeWithNiveaux($page[4]);
-					//$requete = getMonde($page[5]);
-					$requete=json_decode($requete);
-					for ($i=0;$i<count($requete);$i++) {
-						$id=$i+1;
-						echo $requete[$i]."<br>";
-					}
-					//return getNivFromMonde($page[5]);
+					include 'vue/monde.php';
 					break;
 				default:
 					http_response_code('404');
