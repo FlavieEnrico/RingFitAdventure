@@ -25,7 +25,7 @@
 
 <nav class="navbar bg-white">
     <div class="container">
-        <a href="http://localhost/RingFitAdventure"><img src="../assets/images/logo.png" height="60px"></a>
+        <a href="http://localhost/RingFitAdventure"><img src="./assets/images/logo.png" height="60px"></a>
         <?php
             $page = explode('/',$_SERVER['REQUEST_URI']);
             foreach ($links as $link) {

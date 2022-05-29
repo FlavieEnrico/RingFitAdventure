@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <?php include_once("./vue/navbar.php"); ?>
+    <?php include_once("./vue/navbar-index.php"); ?>
 
 
     <main>
@@ -32,7 +32,8 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-md-12 col-lg-6 col-xl-5 section-text">
                         <h1>RingFitAdventure</h1>
-                        <p class="lead mb-5">Un jeu créatif et immersif qui à la pointe de la technologie vous fera découvrir des mondes différents, des personnages et encore plein de surprises ! Et cela tout en restant fit !!
+                        <p class="lead mb-5">
+                        A creative and immersive game that at the cutting edge of technology will make you discover different worlds, characters and still full of surprises! And that while staying fit!!
                         </p>
                     </div>
                     <div class="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
@@ -50,8 +51,8 @@
                     </div>
 
                     <div class="col-12 col-md-12 col-lg-6 col-xl-5 section-text">
-                        <h1>Modalité du projet</h1>
-                        <p class="lead mb-5">Ce projet a pour ambition de répertorier les données entre autre le wiki du jeu RingFitAdventure disponible sur switch.</p>
+                        <h1>The project</h1>
+                        <p class="lead mb-5">This project aims to list the data, among other things, of the RingFitAdventure game available on switch.</p>
                     </div>
                 </div>
             </div>

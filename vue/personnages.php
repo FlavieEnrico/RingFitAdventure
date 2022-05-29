@@ -24,7 +24,6 @@ echo "<main class=\"container\">";
             </div>
             <div class=\"text-center\">
                 <h4 class=\"mb-0\"><a href=\"personnage/".$current_id."\">".$requete[$current]."</a></h4>
-                <span class=\"text-muted d-block mb-2\">None</span>
             </div>
             </div>";
             }
